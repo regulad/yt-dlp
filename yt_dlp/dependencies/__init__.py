@@ -87,6 +87,12 @@ except ImportError:
     yt_dlp_ejs = None
 
 
+try:
+    import pywidevine
+except ImportError:
+    pywidevine = None
+
+
 all_dependencies = {k: v for k, v in globals().items() if not k.startswith('_')}
 available_dependencies = {k: v for k, v in all_dependencies.items() if v}
 

@@ -63,6 +63,9 @@ curl-cffi = [
 secretstorage = [
     "secretstorage",
 ]
+widevine = [
+    "pywidevine>=1.9.0,<2",
+]
 deno = [
     "deno>=2.6.6",
 ]

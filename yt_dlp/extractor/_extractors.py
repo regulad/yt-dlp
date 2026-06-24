@@ -1327,6 +1327,10 @@ from .onet import (
     OnetMVPIE,
     OnetPlIE,
 )
+from .onlyfans import (
+    OnlyFansIE,
+    OnlyFansModelIE,
+)
 from .onsen import OnsenIE
 from .opencast import (
     OpencastIE,
